@@ -1,0 +1,71 @@
+.section-title--one::after {
+    background: rgb(3,78,162);
+    background: linear-gradient(45deg, rgba(3,78,162,1) 0%, rgba(133,186,65,1) 100%);
+}
+.btn--border_1 {
+    color: #85ba41;
+    border: 1px solid #85ba41;
+}
+.btn--border_1:hover {
+    color: #fff;
+    background-color: #034ea2;
+    border: 1px solid #034ea2;
+}
+.scroll-top {
+    background-color: #034ea2;
+}
+.header-sticky.is-sticky {
+    color: #fff;
+    background-color: #034ea2 !important;
+    opacity: 0.95;
+}
+.header_height-90 {
+    color: #fff;
+}
+a:hover {
+    color: #85ba41;
+}
+.header-left-search .search-field {
+    border-color: #fff;
+}
+.header-left-search .search-icon {
+    color: #fff;
+}
+.header-left-search .search-field::placeholder {
+    color: #fff;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus, select:focus, select:focus, textarea:focus {
+    color: #fff;
+    border-color: #85ba41;
+}
+.header-cart .item-counter {
+    background-color: #85ba41;
+}
+.text-color-primary {
+    color: #fff;
+}
+.hero-title {
+    color: #034ea2;
+}
+.single-hero-slider-one .hero-title::after {
+    background: #85ba41;
+}
+.head-detail {
+    color: #fff;
+}
+.single-hero-slider-one .hero-btn-one {
+    background: #85ba41;
+}
+.hero-slider-one .slick-dots li.slick-active button {
+    background: #034ea2 !important;
+}
+
+.btn--green {
+    background: #85ba41;
+    color: #ffffff;
+}
+
+.btn--green:hover {
+    background: #034ea2;
+    color: #ffffff;
+}

@@ -204,7 +204,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #dcb14a;
+  color: #85ba41;
 }
 
 button, input[type="submit"] {
@@ -508,12 +508,12 @@ select:focus {
 
 ::-moz-selection {
   color: #ffffff;
-  background-color: #dcb14a;
+  background-color: #85ba41;
 }
 
 ::selection {
   color: #ffffff;
-  background-color: #dcb14a;
+  background-color: #85ba41;
 }
 
 form {
@@ -596,13 +596,21 @@ input[type="checkbox"] {
     - Breadvrumb  
 =================================*/
 .breadcrumb-area {
-  background-color: #f4f5f7;
+  background-color: #034ea2;
   background-repeat: no-repeat;
   background-position: center center;
   border-bottom-width: 0px;
   padding-top: 80px;
   padding-bottom: 80px;
   background-size: cover;
+}
+
+.breadcrumb-title {
+  color: #fff;
+}
+
+.breadcrumb-item {
+  color: #fff;
 }
 
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -648,7 +656,7 @@ input[type="checkbox"] {
 }
 
 .breadcrumb-list li.active {
-  color: #777;
+  color: #85ba41;
 }
 
 @media only screen and (max-width: 575px) {
@@ -681,7 +689,8 @@ input[type="checkbox"] {
 }
 
 .page-pagination li a:hover {
-  color: #dcb14a;
+  background-color: #034ea2;
+  color: #fff;
 }
 
 /*=============================================
@@ -2546,7 +2555,7 @@ input[type="checkbox"] {
 
 .helendo-language-currency .widget-language ul li.actived a,
 .helendo-language-currency .widget-currency ul li.actived a {
-  color: #dcb14a;
+  color: #034ea2;
 }
 
 .helendo-language-currency .widget-language ul li a,
@@ -2559,7 +2568,7 @@ input[type="checkbox"] {
 
 .helendo-language-currency .widget-language ul li a:hover,
 .helendo-language-currency .widget-currency ul li a:hover {
-  color: #dcb14a;
+  color: #85ba41;
 }
 
 .mobile-menu-contact-info h6, .mobile-menu-social-share h6 {
@@ -3504,7 +3513,8 @@ input[type="checkbox"] {
 }
 
 .page-pagination li .page-numbers.current {
-  background-color: #dcb14a;
+  color: #fff;
+  background-color: #85ba41;
 }
 
 .page-pagination li .page-numbers i {
@@ -7394,7 +7404,7 @@ h3.cart-page-title {
 }
 
 .single-product-item .product-actions a:hover {
-  color: #dcb14a;
+  color: #85ba41;
 }
 
 .single-product-item .product-actions a:hover .tool-tip {
@@ -8248,7 +8258,8 @@ h3.cart-page-title {
 
 .single-blog-item:hover .blog-contents .blog-title::after {
   width: 70px;
-  background: #dcb14a;
+  background: rgb(3,78,162);
+  background: linear-gradient(45deg, rgba(3,78,162,1) 0%, rgba(133,186,65,1) 100%);
 }
 
 .single-blog-item:hover .blog-contents .blog-title-two a {
